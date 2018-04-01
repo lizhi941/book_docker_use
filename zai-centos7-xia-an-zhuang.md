@@ -15,17 +15,14 @@
 ```bash
 yum-config-manager \
 --add-repo \
-https://docs.docker.com/v1.13/engine/installation/linux/repo_files/centos/docker.repoyum-config-manager \
---add-repo 
+https://docs.docker.com/v1.13/engine/installation/linux/repo_files/centos/docker.repoyum-config-manager
 ```
 
-     ！如果提示该“yum-config-manager”没有安装，这是因为yum没有安装自身的管理工具，运行下面的命令安装:
+！如果提示没有安装yum-config-manager，这是因为yum默认没有安装自身的管理工具，运行下面命令安装：
 
-```bash
+```
 yum -y install yum-utils
 ```
-
-
 
 #### 1.1.2 在ubuntu
 
