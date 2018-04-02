@@ -33,5 +33,21 @@ DISTRIB_DESCRIPTION="Ubuntu 16.04 LTS"
 
 #### 2.1.2 使用scratch制作一个简单的父镜像（parent images）
 
+scratch是Docker官方保留的一个最小镜像。在你的Dockerfile文件中使用“scratch”表明制作过程是从这之后的命令开始作为第一层文件系统。你不能使用scratch保留字来做版本标记，或者运行一个容器等等，但是，你可以在Dockerfile文件中引用它。下面是一个使用scratch制作最小容器的例子，首先制作Dockerfile：
+
+```
+FROM scratch
+ADD hello /
+CMD ["/hello"]
+```
+
+假设你已经制作好一个可执行的“hello”例子（根据[https://github.com/docker-library/hello-world/](https://github.com/docker-library/hello-world/)制作），并使用-static参数进行了编译，现在可以使用以下命令制作一个Dockerimages。
+
+```
+docker build --tag hello .
+```
+
+不要在最后忘记点 . 这个字符，它表示制作过程工作在当前目录。 
+
 
 
