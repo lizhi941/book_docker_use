@@ -41,7 +41,7 @@ yum list docker-ce --showduplicates | sort -r
 选择特定版本
 
 ```
-sudo yum install <FQPN> # 例如：sudo yum install docker-ce-17.09.0.ce
+sudo yum install <FULLY-QUALIFIED-PACKAGE-NAME> # 例如：sudo yum install docker-ce-17.09.0.ce
 ```
 
 * 启动并加入开机启动
