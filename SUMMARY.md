@@ -4,4 +4,8 @@
 * [First Chapter（第一章  安装）](chapter1.md)
 * [1.1 在linux平台下安装](zai-centos7-xia-an-zhuang.md)
 * [1.2 在windows平台下安装](12-zaiwindows-xia-an-zhuang.md)
+* [Second Chapter \(第二章\) 制作镜像的步骤](second-chapter-di-er-7ae029-zhi-zuo-jing-xiang-de-bu-zou.md)
+* [2.0 预备知识](20yu-bei-zhi-shi.md)
+* [2.1 基础镜像](21-ji-chu-jing-xiang.md)
+* 2.2 派生镜像
 
