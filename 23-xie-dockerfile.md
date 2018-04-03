@@ -38,7 +38,6 @@ RUN cd $INSTALL_DIR \
     && chmod u+x bin/magento
 COPY ./install-magento /usr/local/bin/install-magento
 RUN chmod +x /usr/local/bin/install-magento
-
 ```
 
 
