@@ -49,3 +49,17 @@ docker build --tag hello .
 
 不要在最后忘记点 . 这个字符，它表示制作过程工作在当前目录。
 
+
+
+增加一个例子来理解：
+
+例如Dcoker官方仓库中linux的发行版本debian的jessie版本仓库为：debian:jessie，其Dockerfile文件内容如下\(网址：https://github.com/debuerreotype/docker-debian-artifacts/blob/603ba998fd1175e70bf3ac5d79a5d2c1ed9a52fe/jessie/Dockerfile\)
+
+```
+FROM scratch
+ADD rootfs.tar.xz /
+CMD ["bash"]
+```
+
+可以看出，其也是从保留镜像scratch开始 。
+
