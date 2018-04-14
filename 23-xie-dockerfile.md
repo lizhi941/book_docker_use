@@ -1,10 +1,8 @@
-
-
 以Docker的官方镜像php:7.1.15-apache为基础建立magento2.2.3镜像
 
 Dockerfile
 
-```
+```bash
 FROM php:7.1.15-apache
 MAINTAINER Zhi Li <hello-168@163.com>
 
