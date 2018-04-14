@@ -14,4 +14,5 @@
 * [2.3.1 官方镜像php:7.1.15-apache](guan-fang-jing-xiang-php-7-1-15-apache.md)
   * 2.3.1.2 php7.1.16-apache-phpext
 * [2.3.1.1 php7.1.15-apache-phpext](php7115-apache-phpextan-zhuang-e-wai-de-php-mo-575729.md)
+* [2.3.1.2 php7.1.16-apache-phpext](2312-php7116-apache-phpext.md)
 
