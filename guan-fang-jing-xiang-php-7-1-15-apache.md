@@ -6,7 +6,7 @@
 
 Dockerfile
 
-```
+```bash
 #
 # NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
 #
