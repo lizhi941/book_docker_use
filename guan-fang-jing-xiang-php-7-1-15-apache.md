@@ -1,4 +1,4 @@
-### 2.3.1**官方镜像php:7.1.15-apache **
+### 2.3.1 **官方镜像php:7.1.15-apache **
 
 以Docker的官方镜像debian:jessie为基础建立另一个官方镜像php:7.1.15-apache，Dockerfile文件地址
 

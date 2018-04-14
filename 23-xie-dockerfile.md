@@ -1,4 +1,4 @@
-## 2.3写Dockerfile
+## 2.3 写Dockerfile
 
 以Docker的官方镜像php:7.1.15-apache为基础建立magento2.2.3镜像
 
