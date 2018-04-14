@@ -1,3 +1,5 @@
+## 2.1 基础镜像
+
 制作基础（base image）的主要方法有用tar和用scratch两种方式。这个过程严重依赖于你选用的Linux的发布包。
 
 #### 2.1.1 使用tar制作一个全镜像（full image）
@@ -53,7 +55,7 @@ docker build --tag hello .
 
 例子1：
 
-Dcoker官方仓库中linux的发行版本debian的jessie版本仓库为：debian:jessie，其Dockerfile文件内容如下\(网址：[https://github.com/debuerreotype/docker-debian-artifacts/blob/603ba998fd1175e70bf3ac5d79a5d2c1ed9a52fe/jessie/Dockerfile\](https://github.com/debuerreotype/docker-debian-artifacts/blob/603ba998fd1175e70bf3ac5d79a5d2c1ed9a52fe/jessie/Dockerfile\)\)
+Dcoker官方仓库中linux的发行版本debian的jessie版本仓库为：debian:jessie，其Dockerfile文件内容如下\(网址：[https://github.com/debuerreotype/docker-debian-artifacts/blob/603ba998fd1175e70bf3ac5d79a5d2c1ed9a52fe/jessie/Dockerfile\](https://github.com/debuerreotype/docker-debian-artifacts/blob/603ba998fd1175e70bf3ac5d79a5d2c1ed9a52fe/jessie/Dockerfile%29\)
 
 ```
 FROM scratch
@@ -63,7 +65,7 @@ CMD ["bash"]
 
 可以看出，其也是从保留镜像scratch开始 。
 
-例子2:Dcoker官方仓库中Busybo版本latest仓库为:busybox:latest,其Dockerfile文件内容如下\(网址：https://github.com/docker-library/busybox/blob/0ca1c6a885ac2d01bf85e8094213e4c5fdeca953/uclibc/Dockerfile\)
+例子2:Dcoker官方仓库中Busybo版本latest仓库为:busybox:latest,其Dockerfile文件内容如下\(网址：[https://github.com/docker-library/busybox/blob/0ca1c6a885ac2d01bf85e8094213e4c5fdeca953/uclibc/Dockerfile\](https://github.com/docker-library/busybox/blob/0ca1c6a885ac2d01bf85e8094213e4c5fdeca953/uclibc/Dockerfile\)\)
 
 ```
 FROM scratch
@@ -73,11 +75,5 @@ CMD ["sh"]
 
 可以看出其同样是从保留镜像scratch开始 。
 
-
-
 **总结：操作系统的镜像基本是从保留镜像scratch开始，而应用软件的镜像一般以操作系统镜像为父镜像。**
-
-
-
-
 
